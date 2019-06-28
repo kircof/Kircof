@@ -568,13 +568,23 @@ body {
 	height: 65%;
 }
 
-.computadora > .pantallacomputadora {
+.pantallacomputadora {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	background: #ff6860;
-	border: 0.9rem solid #474e5d;
+	border: 0.9rem solid #a9a9a9;
 	border-radius: 5%;
+	background-image: url("src/codigo/1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: giffy 4s infinite steps(1);
+	animation-play-state: paused;
+	animation-delay: 0.1s;
+}
+
+.pantallacomputadora:hover {
+	animation-play-state: running;
 }
 
 .monitorcomputadora > div {
@@ -594,7 +604,6 @@ body {
 	width: 6px;
 	height: 6px;
 	border-radius: 6px;
-	background: #a5adbd;
 }
 
 .pantallacomputadora:after {
@@ -603,55 +612,272 @@ body {
 	border-radius: 8px;
 	bottom: -10px;
 	margin: 0 0 -4px -4px;
-	background: #e8ebf0;
-}
-.css-typing {
-	width: 100%;
-	-webkit-animation: type 1s steps(100, end);
-	animation: type 1s steps(100, end);
-	-webkit-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
 }
 
-.textocomputadora {
-	padding-left: 3%;
-	padding-right: 3%;
-	width: 100%;
-	height: 100%;
-	left: 50%;
-	margin-left: -50%;
-	overflow: hidden;
-	font-size: 46%;
-	animation-play-state: paused;
+@keyframes giffy {
+	0% {
+		background-image: url("src/codigo/1.png");
+	}
+	1% {
+		background-image: url("src/codigo/1.png");
+	}
+	2% {
+		background-image: url("src/codigo/2.png");
+	}
+	3% {
+		background-image: url("src/codigo/3.png");
+	}
+	4% {
+		background-image: url("src/codigo/4.png");
+	}
+	5% {
+		background-image: url("src/codigo/5.png");
+	}
+	7% {
+		background-image: url("src/codigo/6.png");
+	}
+	8% {
+		background-image: url("src/codigo/7.png");
+	}
+	9% {
+		background-image: url("src/codigo/8.png");
+	}
+	10% {
+		background-image: url("src/codigo/9.png");
+	}
+	11% {
+		background-image: url("src/codigo/10.png");
+	}
+	12% {
+		background-image: url("src/codigo/11.png");
+	}
+	14% {
+		background-image: url("src/codigo/12.png");
+	}
+	15% {
+		background-image: url("src/codigo/13.png");
+	}
+	16% {
+		background-image: url("src/codigo/14.png");
+	}
+	17% {
+		background-image: url("src/codigo/15.png");
+	}
+	18% {
+		background-image: url("src/codigo/16.png");
+	}
+	19% {
+		background-image: url("src/codigo/17.png");
+	}
+	21% {
+		background-image: url("src/codigo/18.png");
+	}
+	22% {
+		background-image: url("src/codigo/19.png");
+	}
+	23% {
+		background-image: url("src/codigo/20.png");
+	}
+	24% {
+		background-image: url("src/codigo/21.png");
+	}
+	25% {
+		background-image: url("src/codigo/22.png");
+	}
+	26% {
+		background-image: url("src/codigo/23.png");
+	}
+	28% {
+		background-image: url("src/codigo/24.png");
+	}
+	29% {
+		background-image: url("src/codigo/25.png");
+	}
+	30% {
+		background-image: url("src/codigo/26.png");
+	}
+	31% {
+		background-image: url("src/codigo/27.png");
+	}
+	32% {
+		background-image: url("src/codigo/28.png");
+	}
+	33% {
+		background-image: url("src/codigo/29.png");
+	}
+	35% {
+		background-image: url("src/codigo/30.png");
+	}
+	36% {
+		background-image: url("src/codigo/31.png");
+	}
+	37% {
+		background-image: url("src/codigo/32.png");
+	}
+	38% {
+		background-image: url("src/codigo/33.png");
+	}
+	39% {
+		background-image: url("src/codigo/34.png");
+	}
+	40% {
+		background-image: url("src/codigo/35.png");
+	}
+	42% {
+		background-image: url("src/codigo/36.png");
+	}
+	43% {
+		background-image: url("src/codigo/37.png");
+	}
+	44% {
+		background-image: url("src/codigo/38.png");
+	}
+	45% {
+		background-image: url("src/codigo/39.png");
+	}
+	46% {
+		background-image: url("src/codigo/40.png");
+	}
+	47% {
+		background-image: url("src/codigo/41.png");
+	}
+	49% {
+		background-image: url("src/codigo/42.png");
+	}
+	50% {
+		background-image: url("src/codigo/43.png");
+	}
+	51% {
+		background-image: url("src/codigo/44.png");
+	}
+	52% {
+		background-image: url("src/codigo/45.png");
+	}
+	53% {
+		background-image: url("src/codigo/46.png");
+	}
+	54% {
+		background-image: url("src/codigo/47.png");
+	}
+	56% {
+		background-image: url("src/codigo/48.png");
+	}
+	57% {
+		background-image: url("src/codigo/49.png");
+	}
+	58% {
+		background-image: url("src/codigo/50.png");
+	}
+	59% {
+		background-image: url("src/codigo/51.png");
+	}
+	60% {
+		background-image: url("src/codigo/52.png");
+	}
+	61% {
+		background-image: url("src/codigo/53.png");
+	}
+	63% {
+		background-image: url("src/codigo/54.png");
+	}
+	64% {
+		background-image: url("src/codigo/55.png");
+	}
+	65% {
+		background-image: url("src/codigo/56.png");
+	}
+	66% {
+		background-image: url("src/codigo/57.png");
+	}
+	67% {
+		background-image: url("src/codigo/58.png");
+	}
+	68% {
+		background-image: url("src/codigo/59.png");
+	}
+	70% {
+		background-image: url("src/codigo/60.png");
+	}
+	71% {
+		background-image: url("src/codigo/61.png");
+	}
+	72% {
+		background-image: url("src/codigo/62.png");
+	}
+	73% {
+		background-image: url("src/codigo/63.png");
+	}
+	74% {
+		background-image: url("src/codigo/64.png");
+	}
+	75% {
+		background-image: url("src/codigo/65.png");
+	}
+	77% {
+		background-image: url("src/codigo/66.png");
+	}
+	78% {
+		background-image: url("src/codigo/67.png");
+	}
+	79% {
+		background-image: url("src/codigo/68.png");
+	}
+	80% {
+		background-image: url("src/codigo/69.png");
+	}
+	81% {
+		background-image: url("src/codigo/70.png");
+	}
+	82% {
+		background-image: url("src/codigo/71.png");
+	}
+	84% {
+		background-image: url("src/codigo/72.png");
+	}
+	85% {
+		background-image: url("src/codigo/73.png");
+	}
+	86% {
+		background-image: url("src/codigo/74.png");
+	}
+	87% {
+		background-image: url("src/codigo/75.png");
+	}
+	88% {
+		background-image: url("src/codigo/76.png");
+	}
+	89% {
+		background-image: url("src/codigo/77.png");
+	}
+	91% {
+		background-image: url("src/codigo/78.png");
+	}
+	92% {
+		background-image: url("src/codigo/79.png");
+	}
+	93% {
+		background-image: url("src/codigo/80.png");
+	}
+	94% {
+		background-image: url("src/codigo/81.png");
+	}
+	95% {
+		background-image: url("src/codigo/82.png");
+	}
+	96% {
+		background-image: url("src/codigo/83.png");
+	}
+	98% {
+		background-image: url("src/codigo/84.png");
+	}
+	99% {
+		background-image: url("src/codigo/85.png");
+	}
+	100% {
+		background-image: url("src/codigo/86.png");
+	}
 }
 
-.textocomputadora:hover {
-	animation: textocomputadora 15s linear infinite;
-	animation-play-state: running;
-}
-
-.textocomputadora:before {
-	position: absolute;
-	right: -90px;
-	width: 200px;
-	height: 300px;
-	transform: rotate(45deg);
-	background: linear-gradient(
-		to bottom,
-		rgba(255, 255, 255, 0.1) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-	z-index: 5;
-}
-
-.textocomputadora p {
-	margin: 0;
-	opacity: 0;
-}
-
-.textocomputadoravisible {
-	opacity: 1 !important;
-}
 .basecomputadora {
 	width: 35%;
 	height: 30%;
@@ -771,43 +997,6 @@ body {
 		rgba(185, 185, 185, 0) 55%,
 		rgba(185, 185, 185, 0) 100%
 	);
-}
-
-@keyframes type {
-	0% {
-		width: 0;
-	}
-	1% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 1;
-		border: none;
-	}
-}
-
-@-webkit-keyframes type {
-	0% {
-		width: 0;
-	}
-	1% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 1;
-		border: none;
-	}
-}
-
-@keyframes blink {
-	50% {
-		border-color: transparent;
-	}
-}
-@-webkit-keyframes blink {
-	50% {
-		border-color: tranparent;
-	}
 }
 
 /*Computadora Servicios*/

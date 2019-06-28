@@ -41,36 +41,13 @@ $(document).ready(function() {
 	})();
 	//Cambio de palabra texto beneficios
 	//Glitch imagen
-	var numcomputadora = 1;
-	var interval = null;
-	$("computadora").hover(console.log("computadora"));
-	$("pantallacomputadora").hover(console.log("pantallacomputadora"));
-	$("textocomputadora").hover(console.log("textocomputadora"));
-	$("textocomputadora p").hover(console.log("computadora p"));
-	$(".textocomputadora p").hover(
-		function() {
-			if (numcomputadora === 1) {
-				$(".textocomputadora").addClass("css-typing");
-				numcomputadora++;
-			} else {
-				interval = setInterval(function() {
-					numcomputadora++;
-					console.log(numcomputadora);
-					$(
-						".css-typing p:nth-child(" +
-							numcomputadora +
-							") {	width: 100%; -webkit-animation: type 2s steps(100, end); animation: type 2s steps(100, end); animation-delay: 1s;	-webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;	}"
-					).appendTo(".css-typing p:nth-child(" + numcomputadora + ")");
-				}, 1000);
-			}
-		},
-		function() {
-			$(".textocomputadora p:nth-child(" + numcomputadora + ")")
-				.removeClass("css-typing")
-				.addClass("textocomputadoravisible");
-			clearInterval(interval);
-		}
-	);
+
+	function set() {
+		setInterval(function() {
+			console.log($(".pantallacomputadora").css("background-image"));
+		}, 100);
+	}
+	set();
 	//Glitch imagen
 });
 
